@@ -5,8 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node ./dist/index.js",
-    "dev": "nodemon"
+    "start": "NODE_ENV=production node ./dist/index.js",
+    "dev": "NODE_ENV=development nodemon dotenv/config"
   },
   "keywords": [],
   "author": "",
