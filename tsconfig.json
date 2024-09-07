@@ -4,7 +4,6 @@
     "module": "nodenext" /* Specify what module code is generated. */,
     "outDir": "./dist" /* Specify an output folder for all emitted files. */,
     "noEmitOnError": true /* Disable emitting files if any type checking errors are reported. */,
-    "noEmit": true,
     "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
     "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
 
@@ -16,8 +15,7 @@
     "noUnusedLocals": true,
     "noImplicitThis": true,
     "noImplicitReturns": true,
-    "noUnusedParameters": true,
-    "allowImportingTsExtensions": true
+    "noUnusedParameters": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
